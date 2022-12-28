@@ -1,0 +1,4 @@
+repository "01_2@erbin101@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
