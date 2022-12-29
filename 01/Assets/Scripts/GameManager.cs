@@ -6,6 +6,13 @@ public class GameManager : MonoBehaviour
     bool gameHasEnded = false;
 
     public float restartDlay = 1f;
+
+    public GameObject comepleteLevelUI;
+
+    public void CompleteLevel()
+    {
+        comepleteLevelUI.SetActive(true);
+    }
     public void EndGamne()
     {
         if (gameHasEnded == false )
